@@ -1,0 +1,125 @@
+
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+#navbar ul{
+    margin: 0;
+}
+#navbar ul li a{
+    padding: 2px 20px;
+    font-size: 0.5rem;
+}
+#logo img{
+    margin-bottom: 5px;
+    width: 80px;
+    height: 33px;
+    margin-top: 15px;
+}
+.heading{
+    margin-top: 90px;
+}
+#services img{
+    height: 90px;
+}
+#services{
+    display: flex;
+    flex-direction: column ;
+}
+#clients{
+    flex-wrap: wrap;
+}
+#home .h-primary{
+    font-size: 1    rem;
+}
+#home p{
+    font-size: 0.5rem;
+}
+#home h1{
+    padding: 0  ;
+    padding-bottom: 2px;
+}
+.btn{
+    font-size: 0.6rem;
+    margin: 10px;
+    padding: 2px 10px;
+    border: 1px solid white;
+}
+.heading{
+    margin-top: 60px;
+}
+#home{
+    height: 300px;
+    padding: 1px 70px;
+}
+#home::before{
+    height: 450px;
+    width: 100%;
+    
+}
+.h-primary{
+    font-size: 1.3rem;
+}
+#services .box h2{
+    font-size: 1.5rem;
+}
+#services .box p{
+    font-size: 0.6rem;
+}
+#services .box{
+    margin-bottom: 23px;
+    
+}
+#client-section::before{
+    width: 100% ;
+}
+.swigi{
+    height: 100px;
+    width: 84px;
+}
+.star-buck{
+    height: 42px!important;
+    width: 132px;
+}
+.kfc{
+    height: 45px!important;
+    width: 73px;
+}
+.zomato{
+    height: 26px!important;
+    width: 70px;
+}
+.burger-king{
+    height: 60px!important;
+    width: 60px;
+}
+.client-item{
+    padding: 3px;
+}
+#client{
+    flex-direction: column;
+}
+#client img{
+    height: 26px;
+}
+#contact::before{
+    width: 50%;
+    height: 30%;
+    opacity: 0.60;
+}
+.inp{
+    width: 225px;
+}
+#contact-box textarea{
+    width: 215px;
+    
+}
+#contact-box button{
+    font-size: 0.6rem;
+}
+#contact-box label{
+    font-size: 0.9rem;
+}
+footer{
+    font-size: 0.8rem;
+}
